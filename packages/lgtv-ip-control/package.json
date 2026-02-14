@@ -19,6 +19,7 @@
   },
   "scripts": {
     "build": "rollup -c rollup.config.js",
+    "watch": "rollup -w -c rollup.config.js",
     "coverage": "vitest run -c ../../.config/vite.config.mts --coverage",
     "prepare": "yarn run build",
     "test:ci": "vitest run -c ../../.config/vite.config.mts --coverage",
